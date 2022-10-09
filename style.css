@@ -16,9 +16,10 @@ section{
 }
 section h2{
     color:rgb(148, 216, 37);
-    font-size: 8ex;
+    font-size: 10ex;
     text-transform:uppercase ;
     text-shadow:0 1px 4px red;
+    text-align: center
 }
 section .set{
     position:absolute ;
@@ -61,10 +62,6 @@ section .set div:nth-child(6){
     left:20%;
     animation:animate 15s linear infinite ;
     animation-delay:-7s;
-}
-section .set div:nth-child(7){
-    left:0%;
-    animation:animate 12s linear infinite ;
     
 }
 @keyframes animate{
@@ -88,12 +85,8 @@ section .set div:nth-child(7){
     80%{
         transform:translateX(-20px) rotate(180deg);
     }
-    100%{
-        top: 110%;
-        transform:translateX(-20px) rotate(225deg);
-    }
     
-}
+
 .set2{
     transform:scale(2) rotateY(180deg);
     filter:blur(2px);
